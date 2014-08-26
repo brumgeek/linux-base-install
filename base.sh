@@ -19,7 +19,10 @@ sudo apt-get install -y pidgin pidgin-otr pidgin-libnotify hexchat
 sudo apt-get install -y openvpn network-manager-openvpn network-manager-openvpn-gnome filezilla remmina remmina-plugin-gnome remmina-plugin-rdp
 
 #Custom tools
-sudo apt-get -y install xclip mc chromium-browser xpdf font-manager fontforge
+sudo apt-get -y install xclip mc chromium-browser 
+
+# PDF Tools
+sudo apt-get -y install xpdf zathura font-manager fontforge poppler-utils
 
 # Youtube dl
 # (get Latest version at http://rg3.github.io/youtube-dl/download.html)
