@@ -6,7 +6,13 @@ echo ">>> Installing Base Packages"
 sudo apt-get update 
 
 # Misc Utilities
-sudo apt-get -y install ssh tmux vim git-core mcrypt imagemagick libmagickwand-dev htop whois  powertop gparted zenmap terminator curl mc
+sudo apt-get -y install ssh tmux vim-gnome git-core mcrypt imagemagick libmagickwand-dev htop whois  powertop gparted zenmap terminator curl mc
+
+# NFS
+sudo apt-get install nfs-common
+
+# Acer C720
+sudo apt-get install xbacklight
 
 
 #SU Tools
