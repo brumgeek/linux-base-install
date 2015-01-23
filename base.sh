@@ -15,17 +15,23 @@ sudo apt-get install nfs-common
 sudo apt-get install xbacklight
 
 
+# Mutt
+sudo apt-get -y install mutt-patched offlineimap msmtp sqlite
+
+# I3
+sudo apt-get -y xclip rxvt-unicode-256color feh i3 cmus
+
 #SU Tools
 sudo apt-get -y install synaptic
 
 # Pidgin with OTR Encryption Plugin for IM and Hexchat for IRC
 sudo apt-get install -y pidgin pidgin-otr pidgin-libnotify hexchat
 
-# OpenVPN, FTP, and Remote Desktop (RDP) Connections
+# OpenVPN, FTP, and Remote Desktop (RDP) Connections NFS
 sudo apt-get install -y openvpn network-manager-openvpn network-manager-openvpn-gnome filezilla remmina remmina-plugin-gnome remmina-plugin-rdp
 
 #Custom tools
-sudo apt-get -y install xclip mc chromium-browser 
+sudo apt-get -y install mc chromium-browser 
 
 # PDF Tools
 sudo apt-get -y install xpdf zathura font-manager fontforge poppler-utils
@@ -45,12 +51,6 @@ sudo sh -c "echo deb https://get.docker.io/ubuntu docker main > /etc/apt/sources
 sudo apt-get update
 sudo apt-get install -y lxc-docker
 
-
-# Oh My Zsh
-sudo apt-get install -y zsh
-curl -L http://install.ohmyz.sh | sh
-chsh -s `which zsh`
-
 # Web Dev
 # Install Apache
 sudo apt-get install -y apache2
@@ -60,5 +60,11 @@ sudo apt-get install -y mysql-server
 
 # Install PHP
 sudo apt-get install -y php5-cli  php5-mysql php5-pgsql php5-sqlite php5-curl php5-gd php5-gmp php5-mcrypt  php5-memcached php5-imagick php5-intl libapache2-mod-php5
+
+# Oh My Zsh
+sudo apt-get install -y zsh
+curl -L http://install.ohmyz.sh | sh
+chsh -s `which zsh`
+
 
 
