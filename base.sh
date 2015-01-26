@@ -19,7 +19,7 @@ sudo apt-get -y install xbacklight
 sudo apt-get -y install mutt-patched offlineimap msmtp sqlite
 
 # I3
-sudo apt-get -y xclip rxvt-unicode-256color feh i3 cmus
+sudo apt-get -y install xclip rxvt-unicode-256color feh i3 cmus
 
 #SU Tools
 sudo apt-get -y install synaptic
