@@ -9,10 +9,10 @@ sudo apt-get update
 sudo apt-get -y install ssh tmux vim-gnome git-core mcrypt imagemagick libmagickwand-dev htop whois  powertop gparted zenmap terminator curl mc
 
 # NFS
-sudo apt-get install nfs-common
+sudo apt-get -y install nfs-common
 
 # Acer C720
-sudo apt-get install xbacklight
+sudo apt-get -y install xbacklight
 
 
 # Mutt
@@ -64,7 +64,7 @@ sudo apt-get install -y php5-cli  php5-mysql php5-pgsql php5-sqlite php5-curl ph
 # Oh My Zsh
 sudo apt-get install -y zsh
 curl -L http://install.ohmyz.sh | sh
-chsh -s `which zsh`
+chsh -s `/bin/zsh`
 
 
 
